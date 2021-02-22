@@ -4,7 +4,7 @@ awsRegion: us-east-1
 
 # The short solution name is used to namespace a few AWS resources
 # Try to keep this setting short to avoid hitting long strings issues
-solutionName: sfb
+solutionName: speed
 
 # The environment name where you want to deploy the solution to. (e.g. developer1, developer2, demo, prod etc.)
 # This is also used for creating a namespace for resources. Usually, this is same as serverless "stage".
@@ -19,5 +19,3 @@ envName: ${opt:stage}
 # This can be use for enabling some envType driven conditionals in code. (For example, create only single node
 # ElasticSearch cluster when envType is 'dev' but create multi-node cluster when it's 'prod')
 envType: dev
-
-websiteAcmArn: 728f197b-180a-4113-aaef-c482a4cd4d65
