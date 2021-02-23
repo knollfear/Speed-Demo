@@ -59,5 +59,5 @@ to: infrastructure/serverless.yml
     CloudFrontOAI:
         Type: AWS::CloudFront::CloudFrontOriginAccessIdentity
         Properties:
-      CloudFrontOriginAccessIdentityConfig:
-        Comment: 'OAI for ${self:custom.settings.websiteBucketName}'
+            CloudFrontOriginAccessIdentityConfig:
+                Comment: 'OAI for ${self:custom.settings.websiteBucketName}'
